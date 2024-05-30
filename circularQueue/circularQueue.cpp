@@ -63,6 +63,13 @@ public:
 
         int FRONT_Position = FRONT;
         int REAR_Position = REAR;
+
+        //cek apakah antrian kosong
+        if (FRONT_Position == -1) {
+            cout << "Queque is empty\n";
+            return;
+        }
+        cout << "\nElements in the queque are...\n";
     }
 };
 
